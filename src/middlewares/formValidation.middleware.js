@@ -1,4 +1,4 @@
-import Joi from "Joi";
+import Joi from "joi";
 
 const fName = Joi.string().max(30).required();
 const lName = Joi.string().max(30).required();
