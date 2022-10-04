@@ -1,0 +1,24 @@
+//user apis
+### get admin user
+GET http://localhost:8000/api/v1/admin-user
+
+### create an admin user
+POST http://localhost:8000/api/v1/admin-user
+Content-Type: application/json
+
+{
+  "fName" : "Shawn",
+  "lName" : "Kebel",
+  "email": "fxrender@outlook2.com",
+  "password": "Yoshi1988*",
+  "phone" : "6189678723"
+}
+
+### login an admin user
+POST http://localhost:8000/api/v1/login
+Content-Type: application/json
+
+{
+  "email": "fxrender@outlook2.com",
+  "password": "Yoshi1988*"
+}
